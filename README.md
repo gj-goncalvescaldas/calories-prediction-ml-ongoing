@@ -15,28 +15,14 @@ Predict the number of **Calories** burned for each row in the test set.
 The submission must be a CSV file with two columns: `id` and `Calories`. Example:
 
 id,Calories
+
 750000,93.2
+
 750001,27.42
+
 750002,103.8
 ...
 
-
----
-
-## 📊 Evaluation Metric
-
-The competition uses **Root Mean Squared Logarithmic Error (RMSLE)** as the evaluation metric:
-
-\[
-\text{RMSLE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} \left( \log(1 + \hat{y}_i) - \log(1 + y_i) \right)^2 }
-\]
-
-Where:  
-- \( \hat{y}_i \) is the predicted value  
-- \( y_i \) is the true value  
-- \( n \) is the number of samples
-
-This metric penalizes under-predictions more than over-predictions for small values, and is less sensitive to large absolute errors when the target values are large.
 
 ---
 
