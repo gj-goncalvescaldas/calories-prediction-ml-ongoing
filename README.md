@@ -38,3 +38,24 @@ id,Calories
 
 - The dataset is **synthetically generated** but inspired by real-world data.  
 - The competition is part of the **Kaggle Tabular Playground Series**, intended for learning and ex
+
+---
+
+## 🧰 Development Environment
+
+This project was developed using **Databricks Community Edition**, combining **PySpark** and standard **Python** libraries.
+
+To run the project successfully in Databricks:
+
+1. Navigate to **Compute** → select the cluster you want to use  
+2. Open the **Libraries** tab  
+3. Click **Install New** → choose **PyPI**  
+4. In the **Package** field, install:
+
+```
+xgboost
+catboost
+```
+
+As shown in the image: `images/img1.png`
+
