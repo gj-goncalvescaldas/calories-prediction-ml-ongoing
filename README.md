@@ -14,16 +14,12 @@ Predict the number of **Calories** burned for each row in the test set.
 
 The submission must be a CSV file with two columns: `id` and `Calories`. Example:
 
+```
 id,Calories
-
 750000,93.2
-
 750001,27.42
-
 750002,103.8
-...
-
-
+```
 ---
 
 ## 📅 Timeline
@@ -57,5 +53,4 @@ xgboost
 catboost
 ```
 
-As shown in the image: `images/img1.png`
-
+![As shown in the image](images/img1.png)
